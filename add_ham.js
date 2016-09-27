@@ -9,11 +9,11 @@ function Add_ham () {
 Add_ham.prototype = new Command(Add_ham.description);
 
 Add_ham.prototype.execute = function () {
-  console.log("dodaję szynkę");
+  console.log("Adding ham");
 };
 
 Add_ham.prototype.unexecute = function () {
-  console.log("zdejmuję szynkę");
+  console.log("Removing ham");
 };
 
 module.exports = Add_ham;

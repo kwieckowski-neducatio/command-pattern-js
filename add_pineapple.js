@@ -9,11 +9,11 @@ function Add_pineapple () {
 Add_pineapple.prototype = new Command(Add_pineapple.description);
 
 Add_pineapple.prototype.execute = function () {
-  console.log("dodaję ananasa");
+  console.log("Adding pineapple");
 };
 
 Add_pineapple.prototype.unexecute = function () {
-  console.log("zdejmuję ananasa");
+  console.log("Removing pineapple");
 };
 
 module.exports = Add_pineapple;
